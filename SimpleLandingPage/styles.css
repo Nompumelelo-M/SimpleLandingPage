@@ -41,6 +41,17 @@ li{
 
 .logo{
     font-size: 24px;
+
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.logo a:hover{
+    color: black;
 }
 
 .logo-icon{
@@ -79,6 +90,10 @@ p{
     margin-top:30px;
 }
 
+.welcome-div-about{
+    margin-top:150px;
+}
+
 .footer{
     border-top: 1px grey solid;
     margin-top:300px;
@@ -96,4 +111,18 @@ p{
     padding-top: 15px;
     font-size: small;
     
+}
+
+.footer-about{
+    border-top: 1px grey solid;
+    text-align: center;
+    display: flex;
+    max-width: 1600px;
+    justify-content: center;
+    margin-top: 380px;
+}
+
+.footer-about p{
+    padding-top:15px;
+    font-size:small;
 }
